@@ -1,17 +1,16 @@
-
-
-class UserModel{
-String? name;
+class UserModel {
+  String? name;
   String? password;
-  UserModel(this.name,this.password);
+  UserModel(this.name, this.password);
 }
-class LessonModel{
-String? lessonName;
+
+class LessonModel {
+  String? lessonName;
   String? title;
-  UserModel(this.lessonName,this.title);
 }
-class CatModel{
-String? name;
+
+class CatModel {
+  String? name;
   String? price;
-  UserModel({this.name,this.price});
+  CatModel({this.name, this.price});
 }
